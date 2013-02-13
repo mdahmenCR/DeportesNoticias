@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Sobre nosotros";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title</h1>
+</hgroup>
+
+<article>
+    <p>
+        Este sitio pretende dar noticias de diversos deportes, como son el fútbol, carreras, Tennis, y más.
+    </p>
+
+    <p>
+        El objetivo es tener una gama amplia de noticias y no solo enfocadan en un solo deporte.
+    </p>
+</article>
+
+<aside>
+    <h3>Sections</h3>
+    <p>
+        Acceso rápido a lugares dentro de este sitio
+    </p>
+    <ul>
+        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("About", "About", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+</aside>
